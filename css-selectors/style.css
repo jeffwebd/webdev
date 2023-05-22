@@ -14,14 +14,14 @@ p {
     font-size: 20px;
 }
 
-#id-selector-demo{
+#id-selector-demo {
     color: green;
 }
 
-li[value="4"]{
+li[value="4"] {
     color: blue;
 }
 
-*{
+* {
     text-align: center;
 }
