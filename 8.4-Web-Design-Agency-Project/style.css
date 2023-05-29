@@ -20,6 +20,14 @@ footer {
   color: midnightblue;
 }
 
+@media (max-width: 600px) {
+  .card {
+    width: 40%;
+    display: block;
+  }
+}
+
+@media (min-width: 601px) {
 .card {
   width: 40%;
   display: inline-block;
@@ -34,4 +42,8 @@ footer {
 }
 .right {
   float: right;
+}
+
+img {
+  width: 30%;
 }
