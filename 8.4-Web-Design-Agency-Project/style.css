@@ -27,8 +27,8 @@ footer {
   img.tile-image {
     width: 200px;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -44,7 +44,7 @@ footer {
     float: right;
   }
   img.tile-image {
-    width: 350px;
+    width: 300px;
     float: left;
     margin-right: 50px;
     margin-bottom: 30px;
