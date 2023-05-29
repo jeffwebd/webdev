@@ -22,28 +22,24 @@ footer {
 
 @media (max-width: 600px) {
   .card {
-    width: 40%;
     display: block;
   }
 }
 
 @media (min-width: 601px) {
-.card {
-  width: 40%;
-  display: inline-block;
+  .card {
+    width: 40%;
+    display: inline-block;  
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
 }
 
-.tile-image {
-  float: left;
-}
-
-.left {
-  float: left;
-}
-.right {
-  float: right;
-}
-
-img {
+img.tile-image{
   width: 30%;
+  float: left;
 }
