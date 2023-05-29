@@ -15,7 +15,23 @@ h1 {
 }
 
 footer {
+  clear: both;
   text-align: right;
   color: midnightblue;
 }
 
+.card {
+  width: 40%;
+  display: inline-block;
+}
+
+.tile-image {
+  float: left;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
