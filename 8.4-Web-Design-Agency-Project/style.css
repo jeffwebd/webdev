@@ -33,9 +33,6 @@ footer {
 }
 
 @media (min-width: 601px) {
-  .card-title {
-    width: 18%;
-  }
   .card {
     width: 40%;
     display: inline-block;  
