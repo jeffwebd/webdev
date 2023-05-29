@@ -24,6 +24,12 @@ footer {
   .card {
     display: block;
   }
+  img.tile-image {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 601px) {
@@ -37,9 +43,11 @@ footer {
   .right {
     float: right;
   }
+  img.tile-image {
+    width: 350px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
 }
 
-img.tile-image{
-  width: 30%;
-  float: left;
-}
