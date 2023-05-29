@@ -34,7 +34,7 @@ footer {
 
 @media (min-width: 601px) {
   .card-title {
-    width: 15%;
+    width: 25%;
   }
   .card {
     width: 40%;
