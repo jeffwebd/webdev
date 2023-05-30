@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
-  background-color: #31d237;
+  background-color: #f1f9f6;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
@@ -50,4 +50,3 @@ footer {
     margin-bottom: 30px;
   }
 }
-
