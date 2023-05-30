@@ -18,23 +18,37 @@
       border-radius: 15px;
       display: flex;
       flex-direction: column;
-      align-content: center;
+      align-items: center;
       justify-content: space-around;
     }
     .plan-price {
       font-weight: 800;
-      font-size: 5rem;
+      font-size: 3rem;
+      padding: 5px;
     }
     .plan-title {
       font-weight: 600;
       font-size: 2rem;
+      margin-top: 5px;
     }
 
+    .pricing-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .plan-button{
+     margin-bottom: 10px;
+    }
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
       .pricing-container {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
+        width: 345px;
+        gap: 20px;
       }
     }
   </style>
