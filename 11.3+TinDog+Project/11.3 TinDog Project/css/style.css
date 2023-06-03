@@ -16,18 +16,23 @@
   }
 }
 
-.btn-primary {
-  background-color: white;
-  color: black;
+.dog-pic {
+  display: flex;
+  justify-content: center;
+}
+.dog-image {
+  border: 0 solid black;
+  border-radius: 50%;
+  height: 15vh;
 }
 
-.btn-outline-secondary {
-  color: white;
-  border-color: white;
+.test-img {
+  display: flex;
+  justify-content: center;
 }
 
-.row < div {
-  padding-bottom: 0;
+.test-img > img {
+  height: 35px;
 }
 
 .icon-square {
