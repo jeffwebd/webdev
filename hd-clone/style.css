@@ -1,0 +1,76 @@
+body {
+  background-image: url(https://images2.alphacoders.com/763/thumb-1920-76342.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: right;
+  background-position-y: top;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: safe center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button {
+  display: grid;
+  grid-template: 88px / 88px 1fr;
+  width: 268px;
+  height: 88px;
+  background-color: rgb(218, 218, 218);
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+.button-drk {
+  display: grid;
+  grid-template: 88px / 88px 1fr;
+  width: 268px;
+  height: 88px;
+  background: linear-gradient(to right, #003300 50%, #0066cc 100%);
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+.click-area {
+  padding: 20px;
+  height: 88px;
+  width: 268px;
+}
+
+.btn-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn-logo img {
+  height: 75%;
+  border: 0 solid black;
+  border-radius: 10px;
+}
+
+.btn-txt {
+  display: flex;
+  align-items: center;
+}
+
+.fill-div {
+  color: black;
+  text-decoration: none;
+}
+
+.fill-div-drk {
+  color: whitesmoke;
+  text-decoration: none;
+}
