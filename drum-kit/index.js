@@ -17,6 +17,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function (){
         case "d":
             var tom1 = new Audio("./sounds/tom1.mp3");
             tom1.play();
+            alert("d was clicked")
             break;
         case "j":
             var tom2 = new Audio("./sounds/tom2.mp3");
