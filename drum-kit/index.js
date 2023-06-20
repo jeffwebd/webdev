@@ -2,12 +2,13 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 document.querySelectorAll(".drum")[i].addEventListener("click", function (){
     drummerBoy(this.innerHTML)
 }
-)
+);
+document.addEventListener("keydown", function(event) {
+    drummerBoy(event.key);
+});
 };
 
-document.addEventListener("keydown", function(event)){
-    drummerBoy(event.key);
-}
+
 
 function drummerBoy(keykey){
     switch (keykey) {
