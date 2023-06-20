@@ -30,7 +30,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function (){
             var tom4 = new Audio("./sounds/tom4.mp3");
             tom4.play();
             break;
-        default: 
+        default:  
     }
 }
 )};
