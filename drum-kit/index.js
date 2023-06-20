@@ -1,5 +1,5 @@
-for (var i = 0, document.querySelectorAll("button").length - 1 , i++) {
-document.querySelectorAll("button")[i].addEventListener("click", function (){
+for (var i = 0, i < document.querySelectorAll(".drum").length , i++) {
+document.querySelectorAll(".drum")[i].addEventListener("click", function (){
     alert("I got clicked")
 }
 )};
