@@ -1,7 +1,7 @@
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 document.querySelectorAll(".drum")[i].addEventListener("click", function (){
 
-    switch (this.innerHtml) {
+    switch (this.innerHTML) {
         case "w":
             var crash = new Audio("./sounds/crash.mp3");
             crash.play();
