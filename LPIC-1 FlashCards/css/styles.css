@@ -1,0 +1,83 @@
+body {
+  background-image: url(https://images2.alphacoders.com/763/thumb-1920-76342.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: right;
+  background-position-y: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  margin: auto 0;
+}
+.outercontainer {
+  margin: auto 0px;
+  align-self: center;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: safe center;
+  gap: 30px;
+  position: relative;
+}
+
+.flashcard {
+  background-color: rgb(218, 218, 218);
+  width: 500px;
+  min-width: 350px;
+  height: 300px;
+  transition: 0.5s;
+	transform-style: preserve-3d;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 9fr;
+}
+
+.check {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  border-radius: 17px 17px 0px 0px;
+  text-align: center;
+}
+
+.check input {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.check:has(input:checked) {
+  background-color: green;
+}
+
+.question, .answer {
+  height: 90%;
+  width: 100%;
+  padding: 0px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.question h3, .answer h3 {
+  margin: 5px;
+}
+
+.answer {
+  visibility: hidden;
+}
+
+.qanda:active .question {
+  visibility: hidden;
+}
+
+.qanda:active .answer {
+  visibility: visible;
+}
